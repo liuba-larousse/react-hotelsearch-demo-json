@@ -40,27 +40,23 @@ export default function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
-          <Header />
-          <Switch>
-            <Route path="/hotel/:hotelId">
-              <DataProvider>
+        <DataProvider>
+          <BrowserRouter>
+            <Header />
+            <Switch>
+              <Route path="/hotel/:hotelId">
                 <HotelPage />
-              </DataProvider>
-            </Route>
-            <Route path="/search">
-              <DataProvider>
+              </Route>
+              <Route path="/search">
                 <SearchPage />
-              </DataProvider>
-            </Route>
-            <Route path="/">
-              <DataProvider>
+              </Route>
+              <Route path="/">
                 <Home />
-              </DataProvider>
-            </Route>
-          </Switch>
-          <Footer />
-        </BrowserRouter>
+              </Route>
+            </Switch>
+            <Footer />
+          </BrowserRouter>
+        </DataProvider>
       </ThemeProvider>
     </div>
   );

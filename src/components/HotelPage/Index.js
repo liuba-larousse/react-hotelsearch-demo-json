@@ -19,10 +19,8 @@ export default function HotelPage() {
     params.hotelId
   );
 
-  const {
-    hotels,
-    loading
-  } = Data.useData();
+  const { hotels, loading } =
+    Data.useData();
 
   const sh = hotels.find((hotel) => {
     return (
