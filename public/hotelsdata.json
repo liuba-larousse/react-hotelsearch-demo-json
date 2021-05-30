@@ -1,0 +1,193 @@
+{
+  "hotels": [
+    {
+      "localId": 0,
+      "id": 634418464,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 1,
+      "id": 260158,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 2,
+      "id": 326002,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 3,
+      "id": 308872,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 4,
+      "id": 612705,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 5,
+      "id": 205823,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 6,
+      "id": 888087936,
+      "name": "Shanti Paradise loft",
+      "details": "2 guests · Studio · 1 bed · 1 bath",
+      "host": "Tatiana",
+      "guestReviews": {
+        "unformattedRating": 4.67,
+        "rating": "4.6",
+        "total": 6
+      },
+      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
+      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$59",
+          "exactCurrent": 59
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+      ]
+    }
+  ]
+}

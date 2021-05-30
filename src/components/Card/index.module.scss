@@ -1,0 +1,14 @@
+.container{
+  margin: 10px;
+ 
+  
+
+  img{
+    object-fit: contain;
+  }
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
