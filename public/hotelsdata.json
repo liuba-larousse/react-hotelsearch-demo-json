@@ -9,7 +9,7 @@
       "guestReviews": {
         "unformattedRating": 4.67,
         "rating": "4.6",
-        "total": 6
+        "total": 13
       },
       "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
       "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
@@ -30,43 +30,43 @@
     {
       "localId": 1,
       "id": 260158,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "name": "Tropical Garden & Surf Bungalow 1/Pachamama Lodget",
+      "details": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "host": "Philipa",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 4.98,
+        "rating": "45.0",
+        "total": 42
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "We want to welcome all travellers to our Tropical Garden Lodge in Mal País! Our Lodge is just 1 kilometer away from downtown Santa Teresa and just a 50 meter walk from the beach with beautiful quiet bays and tide pools. We are surrounded by jungle plats, fruit trees and wildlife. Also available: Surf Lessons & Board Rentals, Yoga, Horseback Riding, Guided Tours, Fishing, ATV & Motorbike Rentals, Excursions and more!",
+      "location": "Malpais, Puntarenas, Costa Rica",
       "ratePlan": {
         "price": {
-          "current": "$59",
-          "exactCurrent": 59
+          "current": "$96",
+          "exactCurrent": 96
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/dfc14f61-d7b9-48b9-a796-671d474c80d9.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/da6921a9-fabb-4104-b050-c79e79dcf1e0.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/16ad006c-3853-4257-bf28-7a128bb5de96.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/16ad006c-3853-4257-bf28-7a128bb5de96.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/17d6e78e-911b-43f0-8803-253a604b7790.jpg?im_w=480"
       ]
     },
     {
       "localId": 2,
       "id": 326002,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "name": "Mambo's Dream-endless coastline view villa",
+      "details": " guests · 1 bedroom · 1 bed · 1 bath",
+      "host": "Azure",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 5.0,
+        "rating": "5.0",
+        "total": 28
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "This newly constructed, modern styled villa is a perfect place to relax and take in the stunning ocean and coastline views. This modern open layout with fully opening bi fold doors will allow you to fully take in paradise but with the comforts of home.Our villa sits on top of the mountain with private gated access only. Our property care takers live on the property to ensure our guests receive the best service, security and are available if needed at anytime",
+      "location": "Malpais,Costa Rica",
       "ratePlan": {
         "price": {
           "current": "$59",
@@ -74,119 +74,173 @@
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31763499/original/b83c540b-69b4-4669-abe2-434e541a485a.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31763499/original/b58e70f2-c54e-46c8-b447-1710a46622b7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31763499/original/ffd56a7a-7fe6-46c9-8dd7-652561572f30.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31763499/original/cc235495-4aa0-4e88-9bfc-0344ddb87c9d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31763499/original/1a3c829e-4aa4-444d-9639-c500f81e6792.jpeg?im_w=720"
       ]
     },
     {
       "localId": 3,
       "id": 308872,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "name": "Zen Cottage with amazing Ocean view",
+      "details": "4 guests · 1 bedroom · 3 beds · 1 bath",
+      "host": "Mikel",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 4.89,
+        "rating": "4.9",
+        "total": 54
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "This peaceful little house is a true getaway. Tranquil, quiet and private, with amazing panoramic views of the ocean and enchanting hills of the Nicoya Peninsula. Just 450 meters from Manzanillo beach and 1,5 from Playa Hermosa. It is one of the most peaceful and quiet spots in the area.",
+      "location": "Manzanillo Beach, Puntarenas Province, Costa Rica",
       "ratePlan": {
         "price": {
-          "current": "$59",
-          "exactCurrent": 59
+          "current": "$66",
+          "exactCurrent": 66
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/03d1708c-d39b-43d2-8e0e-0eb2ba7c0414.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/4e96497f-d877-4ad0-b684-da9874942703.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3eb7b93f-40b6-4c79-b4a7-5d82e4098321.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/bdabbf79-3208-46f5-9bea-a66e0ba7c9bc.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2538a289-c3e1-4ecf-89e9-a9d111c0bd64.jpg?im_w=720"
       ]
     },
     {
       "localId": 4,
       "id": 612705,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "name": "New House with optional atv deal (apart)!!!",
+      "details": "3 guests · 1 bedroom · 2 beds · 1 bath",
+      "host": "Casa Rocas Coloradas",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 4.84,
+        "rating": "4.8",
+        "total": 38
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "Casa Rocas Coloradas is a cozy confortable new house located in the hills of Playa Hermosa. Surrounded by nature its the perfect place for a relaxed and secluded stay. A 4x4 vehicle is needed because of the road but when you get to the house you realize the adventure is worth the trouble. The house has AC, WIFI (fiber optic) excellent for remote work, smart tv, hot water, barbecue area and a huge garden.",
+      "location": "Puntarenas Province, Costa Rica",
       "ratePlan": {
         "price": {
-          "current": "$59",
-          "exactCurrent": 59
+          "current": "$53",
+          "exactCurrent": 53
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/b7660e5d-55fd-40b0-a67d-4413d10fdedf.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/16860c52-8535-40cd-9965-46663ddec42a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f4665b21-9a38-489f-b5a0-c0b6dcdb6640.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/26a641e4-f741-4ecb-80b4-529aea2b7c69.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/0c1204a2-3066-4bad-a859-9fa4d8c8b975.jpg?im_w=720"
       ]
     },
     {
       "localId": 5,
       "id": 205823,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "name": "Cozy, modern partment steps to the beach Shakti L",
+      "details": "3 guests · 1 bedroom · 2 beds · 1 bath",
+      "host": "Scott And Natalia",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 4.86,
+        "rating": "4.9",
+        "total": 94
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "We are right in the heart of town with immediate access to one of the best surf breaks.Shakti is in a beautiful jungle setting, 100 meters to the beach. Playa Carmen. 5 min walk to the beach.Superb location!!Jungle setting, yet right in town, close to all the restaurants, grocery shopping and surf shops. Well equipped kitchen, spacious pool, orthopedic beds, quality sheets and towel",
+      "location": "Santa Teresa, Puntarenas Province, Costa Rica",
       "ratePlan": {
         "price": {
-          "current": "$59",
-          "exactCurrent": 59
+          "current": "$76",
+          "exactCurrent": 76
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/a5bcd1eb-b06e-4a54-bb17-6f7a5d0d6d73.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/aacb59e2-a937-423b-9c51-be1acc0784c7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4c371536-d610-4417-94fd-b416230d35a6.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/67ea4b3b-b55d-4cd3-991a-d214ac0ca1aa.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/bd48cedd-bbb8-4a7b-8190-09e340d154f8.jpg?im_w=720"
       ]
     },
     {
       "localId": 6,
-      "id": 888087936,
-      "name": "Shanti Paradise loft",
-      "details": "2 guests · Studio · 1 bed · 1 bath",
-      "host": "Tatiana",
+      "id": 834436,
+      "name": "Studio Cielo ' Lua Villas '",
+      "details": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "host": " Luis",
       "guestReviews": {
-        "unformattedRating": 4.67,
-        "rating": "4.6",
-        "total": 6
+        "unformattedRating": 4.76,
+        "rating": "4.8",
+        "total": 34
       },
-      "description": "Un magnifique loft, tout neuf, très lumineux et bien aéré avec une belle vue sur l'Océan et le jardin fleuri qui offre souvent le spectacle des singes dans leur habitat naturel. Vous bénéficierai d'une complète indépendance et du calme offert par la situation de l'appartement. A moins de 5 minutes de toutes les commodités: restaurants, super marché et plages (avec les meilleurs spots de surf).Accessible à pied ou en véhicule 4*4. Nous vous attendons pour les vacances!!!",
-      "location": "Puntarenas, Provincia de Puntarenas, Costa Rica",
+      "description": "Exclusive and rustic Studio in beautiful Playa Hermosa, where the jungle meets the beach. Spacious poolside yoga deck surrounded by tropical garden. Lua Villas is built with respect and love for the nature, both visually and sustainable.",
+      "location": "Playa Santa Teresa, Provincia de Puntarenas, Costa Rica",
       "ratePlan": {
         "price": {
-          "current": "$59",
-          "exactCurrent": 59
+          "current": "$108",
+          "exactCurrent": 108
         }
       },
       "imageUrls": [
-        "https://a0.muscache.com/im/pictures/56f0e13e-e674-4c63-8ae0-df1cb97c9e9d.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/266874c0-91ad-4b26-a7b7-98b6d856c427.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/f0dbfe1a-8184-4995-a65c-b05dcd2edfe7.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/815d37a9-d89e-47e1-bcaf-497de6b2af1b.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/71270404-842c-4b46-a870-eff639bcd7be.jpg?im_w=720"
+        "https://a0.muscache.com/im/pictures/d4ebdb7c-3728-4844-89b7-661191fef8c8.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/63d14e60-55f7-4813-b1c6-fca8b270bc7b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/cb2efb88-b18d-4a7e-bb2c-c789db9c1307.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/8da1ebb5-8167-487a-850e-c696ca2d8a8a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/55f4c58e-8ce0-44ed-b45d-8dd0630aae36.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 7,
+      "id": 8233446,
+      "name": "Montezuma Heights Geco studio.",
+      "details": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "host": " Peter And Rocio",
+      "guestReviews": {
+        "unformattedRating": 4.86,
+        "rating": "4.9",
+        "total": 184
+      },
+      "description": "Geco is a really nice studio cottage with jungle and ocean view (private deck)and only few steps away from our shared pool. It is in the second newest of all, it has a touchy and cozy finish. The antic wood gives it his unique warm touch, no tree had to be cut to make the cottage. The property was fully reforested in the last 22 years. Geco is the down part of a two story building. We are 2,5 miles uphill Montezuma.",
+      "location": "Puntarenas Province, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$77",
+          "exactCurrent": 77
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/88c35d34-54fb-41aa-b9d3-26781f10eef1.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/a2d689af-d29e-4734-877b-478558facce5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5bf73f91-10a0-4878-9087-95fa212c7701.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/48334325/8e484d17_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5f70beed-ea4f-42d0-bdbc-d0fd67aa00e2.jpg?im_w=720"
+      ]
+    },
+    {
+      "localId": 8,
+      "id": 556646,
+      "name": "Studio AMOR ' Lua Villas '",
+      "details": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "host": " Louis",
+      "guestReviews": {
+        "unformattedRating": 4.81,
+        "rating": "4.8",
+        "total": 27
+      },
+      "description": "Creative, cozy studio. Perfect getaway for couples. The studio is surrounded by a tropical garden, and an exclusive yoga/poolside deck. We also offer private yoga lessons and surfboards for rent.",
+      "location": "Santa Teresa, Costa Rica",
+      "ratePlan": {
+        "price": {
+          "current": "$94",
+          "exactCurrent": 94
+        }
+      },
+      "imageUrls": [
+        "https://a0.muscache.com/im/pictures/b5963980-765d-4550-9c68-8722a2636a28.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/4329f07e-5b29-4ad6-a4c7-50b6768f5e4a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f9b79336-d0b2-4936-9c8d-f177e26f3640.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e193a563-555c-4377-81e6-b149ee7d6876.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1f4ec52a-749a-471c-a2f4-cbbb2a9b5ed7.jpg?im_w=720"
       ]
     }
   ]

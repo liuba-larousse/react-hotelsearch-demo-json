@@ -17,7 +17,7 @@ import {
 
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
-import { DataProvider } from "./context/Context";
+
 
 const theme = createMuiTheme({
   palette: {
@@ -40,7 +40,7 @@ export default function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <DataProvider>
+       
           <BrowserRouter>
             <Header />
             <Switch>
@@ -56,7 +56,7 @@ export default function App() {
             </Switch>
             <Footer />
           </BrowserRouter>
-        </DataProvider>
+        
       </ThemeProvider>
     </div>
   );
