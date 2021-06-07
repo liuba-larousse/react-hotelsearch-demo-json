@@ -56,13 +56,13 @@ export default function HotelPage() {
               <div class={s.one}>
                 <img src={sh.imageUrls[1]} alt="" />
               </div>
-              <div class={s.two}>
+              <div className={s.two}>
                 <img src={sh.imageUrls[2]} alt="" />
               </div>
-              <div class={s.three}>
+              <div className={s.three}>
                 <img src={sh.imageUrls[3]} alt="" />
               </div>
-              <div class={s.four}>
+              <div className={s.four}>
                 <img src={sh.imageUrls[4]} alt="" />
               </div>
             </div>

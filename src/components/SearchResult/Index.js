@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     minWidth: 650,
     width: "100%",
     maxWidth: 1020,
-    height: 200,
+    height: 250,
     marginTop: 50
   },
   actionArea: {
@@ -22,7 +22,9 @@ const useStyles = makeStyles({
     justifyContent: "flex-start"
   },
   media: {
-    width: 250
+    width: "50%",
+    maxWidth: 300,
+    minHeight: 250
   },
   top: {
     display: "flex",
@@ -64,7 +66,6 @@ export default function SearchResult({
           className={classes.media}
           component="img"
           alt="Contemplative Reptile"
-          height="200"
           image={src}
           title="Contemplative Reptile"
         />

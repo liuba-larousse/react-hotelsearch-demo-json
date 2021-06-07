@@ -1,6 +1,6 @@
 .container {
   width: 90%;
-  margin-left: 50px;
+  margin: 0 auto;
 }
 
 // Image Container
@@ -112,7 +112,7 @@
 
 .priceContainer {
   height: auto;
-  width: 350px;
+  width: 300px;
   border: solid lightgrey 0.5px;
   border-radius: 15px;
   box-shadow: 6px 5px 25px -6px rgba(0, 0, 0, 0.57);
@@ -177,4 +177,58 @@
   align-items: center;
   margin-right: 0;
   margin-left: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .imageContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(250, fit-content) 1fr;
+    grid-template-areas:
+      "left"
+      "right";
+    gap: 0px 5px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .mainImg {
+    grid-area: left;
+    overflow: hidden;
+    img {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  //bottom container
+
+  .bottomContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottomLeft {
+    flex: 1;
+    padding: 20px;
+    margin-right: 60px;
+  }
+
+  .bottomRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .priceContainer {
+    height: auto;
+    width: 300px;
+    border: solid lightgrey 0.5px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 25px -6px rgba(0, 0, 0, 0.57);
+    padding: 50px;
+  }
 }

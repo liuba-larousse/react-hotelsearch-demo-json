@@ -9,11 +9,9 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import { Link } from "react-router-dom";
 
 export default function SearchPage() {
-  const { loading, hotels } = Data.useData();
-  const [showHotels, setShowHotels] = useState(hotels);
-  console.log("pulled hotels:", hotels);
+  const [sortedHotels, setSortedHotels] = useState([]);
 
-  console.log("show hotels:", showHotels);
+  const { loading, hotels } = Data.useData();
 
   function sortByRating() {
     const sortedHotels = [...hotels].sort((a, b) =>
@@ -23,7 +21,7 @@ export default function SearchPage() {
     );
     return (
       sortedHotels,
-      setShowHotels(sortedHotels),
+      setSortedHotels(sortedHotels),
       console.log("sorted hotels by rating:", sortedHotels)
     );
   }
@@ -34,7 +32,7 @@ export default function SearchPage() {
     );
     return (
       sortedHotels,
-      setShowHotels(sortedHotels),
+      setSortedHotels(sortedHotels),
       console.log("sorted hotels by price:", sortedHotels)
     );
   }
@@ -45,10 +43,13 @@ export default function SearchPage() {
     );
     return (
       sortedHotels,
-      setShowHotels(sortedHotels),
-      console.log("sorted hotels by price:", sortedHotels)
+      setSortedHotels(sortedHotels),
+      console.log("sorted hotels by reviews:", sortedHotels)
     );
   }
+
+  const hotelsToRender =
+    hotels.length > 0 && sortedHotels.length > 0 ? sortedHotels : hotels;
 
   return (
     <>
@@ -76,29 +77,27 @@ export default function SearchPage() {
             <CircularProgress color="secondary" />
           </div>
         )}
-        {hotels
-          ? showHotels.map((hotel) => (
-              <>
-                <Link
-                  to={"hotel/" + hotel.id}
-                  style={{
-                    textDecoration: "none"
-                  }}
-                >
-                  <li key={hotel.id}>
-                    <SearchResult
-                      title={hotel.name}
-                      price={hotel.ratePlan.price.current}
-                      src={hotel.imageUrls[0]}
-                      rating={hotel.guestReviews.rating}
-                      reviews={hotel.guestReviews.total}
-                      details={hotel.details}
-                    />
-                  </li>
-                </Link>
-              </>
-            ))
-          : null}
+        {hotelsToRender.map((hotel) => (
+          <>
+            <Link
+              to={"hotel/" + hotel.id}
+              style={{
+                textDecoration: "none"
+              }}
+            >
+              <li key={hotel.id}>
+                <SearchResult
+                  title={hotel.name}
+                  price={hotel.ratePlan.price.current}
+                  src={hotel.imageUrls[0]}
+                  rating={hotel.guestReviews.rating}
+                  reviews={hotel.guestReviews.total}
+                  details={hotel.details}
+                />
+              </li>
+            </Link>
+          </>
+        ))}
         <Link style={{ textDecoration: "none" }} to="/">
           <Typography variant="h6" component="p" gutterBottom align="center">
             Go back home
