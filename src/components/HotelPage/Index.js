@@ -7,11 +7,12 @@ import DateRangeIcon from "@material-ui/icons/DateRange";
 import MeetingRoomIcon from "@material-ui/icons/MeetingRoom";
 import Button from "@material-ui/core/Button";
 import StarIcon from "@material-ui/icons/Star";
-
+import { useHistory } from "react-router-dom";
 import { CircularProgress, Typography, Avatar } from "@material-ui/core";
 import * as Data from "../../context/Context";
 
 export default function HotelPage() {
+  const history = useHistory();
   const params = useParams();
   console.log("paramsId", params.hotelId);
 
@@ -268,11 +269,11 @@ export default function HotelPage() {
             </div>
           </div>
 
-          <Link style={{ textDecoration: "none" }} to="/">
-            <Typography variant="h6" component="p" gutterBottom align="center">
-              Go back home
-            </Typography>
-          </Link>
+          <div className={s.link}>
+            <Button color="primary" onClick={() => history.push("/")}>
+              Go home
+            </Button>
+          </div>
         </div>
       ) : null}
     </>

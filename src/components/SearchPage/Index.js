@@ -3,12 +3,13 @@ import s from "./index.module.scss";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import SearchResult from "./../SearchResult/Index";
-
+import { useHistory } from "react-router-dom";
 import * as Data from "../../context/Context";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { Link } from "react-router-dom";
 
 export default function SearchPage() {
+  const history = useHistory();
   const [sortedHotels, setSortedHotels] = useState([]);
 
   const { loading, hotels } = Data.useData();
@@ -38,6 +39,7 @@ export default function SearchPage() {
   }
 
   function sortByReviews() {
+    const history = useHistory();
     const sortedHotels = [...hotels].sort((a, b) =>
       a.guestReviews.total > b.guestReviews.total ? 1 : -1
     );
@@ -98,11 +100,11 @@ export default function SearchPage() {
             </Link>
           </>
         ))}
-        <Link style={{ textDecoration: "none" }} to="/">
-          <Typography variant="h6" component="p" gutterBottom align="center">
-            Go back home
-          </Typography>
-        </Link>
+        <div className={s.link}>
+          <Button color="primary" onClick={() => history.push("/")}>
+            Go home
+          </Button>
+        </div>
       </div>
     </>
   );
