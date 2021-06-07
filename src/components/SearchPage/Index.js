@@ -17,8 +17,8 @@ export default function SearchPage() {
   function sortByRating() {
     const sortedHotels = [...hotels].sort((a, b) =>
       a.guestReviews.unformattedRating > b.guestReviews.unformattedRating
-        ? 1
-        : -1
+        ? -1
+        : 1
     );
     return (
       sortedHotels,
@@ -39,9 +39,8 @@ export default function SearchPage() {
   }
 
   function sortByReviews() {
-    const history = useHistory();
     const sortedHotels = [...hotels].sort((a, b) =>
-      a.guestReviews.total > b.guestReviews.total ? 1 : -1
+      a.guestReviews.total > b.guestReviews.total ? -1 : 1
     );
     return (
       sortedHotels,
