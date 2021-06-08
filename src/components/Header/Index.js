@@ -32,7 +32,7 @@ export default function Header() {
 
       <div className={s.right}>
         <p>Log In</p>
-        <ExpandMoreIcon />
+        <ExpandMoreIcon aria-label="expand" />
         <LanguageIcon />
 
         <Avatar />

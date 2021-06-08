@@ -2,11 +2,11 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Hotel Search React App</h3>
-   <h5 align="center">Learning project</h5>
+  <h1 align="center">Hotel Search React App</h1>
+   <h2 align="center">Learning project</h2>
 
   <p align="center">
-<p>
+<p align="center">
     <a href="https://react-hotelsearch-demo-app.netlify.app/">View Demo</a>
     ·
     <a href="https://codesandbox.io/s/determined-poitras-2iytu">View Sandbox</a>
@@ -37,7 +37,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Features</a></li>
-    <li><a href="#roadmap">Learningsß</a></li>
+    <li><a href="#roadmap">Learnings</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -49,9 +49,11 @@
 
 ## About The Project
 
-<p align="center">
+![landing page](https://res.cloudinary.com/liubalarousse/image/upload/v1623167167/for%20portfolio/hotelsearch-react-demo_nuoyne.png)
+
+<!-- <div align="center">
 <img src="https://res.cloudinary.com/liubalarousse/image/upload/v1623167167/for%20portfolio/hotelsearch-react-demo_nuoyne.png" width="75%" alt="landing page">
-</p>
+</div> -->
 
 This project was build with intention of practicing and learning basic React skills. I used Material UI for styling of repeating elements like typography fonts, cards, buttons. I used SCSS for layout and customized style of unique elements of the page.
 
@@ -113,39 +115,43 @@ To get a local copy up and running follow these simple example steps. -->
 ✅ React Context
 
 ✅ React Hookes
-⭐ useState
-⭐ useEffect
-⭐ Custom GetData Hook
+
+- ⭐ useState
+- ⭐ useEffect
+- ⭐ Custom GetData Hook
 
 ✅ React Router
-⭐ useParams
-⭐ useHistory
-⭐ Dynamic Routes
+
+- ⭐ useParams
+- ⭐ useHistory
+  -⭐ Dynamic Routes
 
 ✅ Responisive
-⭐ @media query
+
+- ⭐ @media query
 
 ✅ Date picker
 
 ✅ Material UI
-⭐ ThemeProvider and theme customization
-⭐ typography
-⭐ cards, buttons links
-⭐ icons
 
-<!-- ROADMAP -->
+- ⭐ ThemeProvider and theme customization
+- ⭐ typography
+- ⭐ cards, buttons links
+- ⭐ icons
+
+<!-- LEARNINGS -->
 
 ## Learnings
 
-See the [learnings](https://github.com/liuba-larousse/react-hotelsearch-demo-json/LEARNINGS.md) what I have learned building this project.
+See what I have [learned](https://github.com/liuba-larousse/react-hotelsearch-demo-json/blob/dynamic-pages/LEARNINGS.md) what I have learned building this project.
 
 ## Contact
 
 <a href="mailto:liubovkapitulskaya@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-<!-- issues -->
+<!-- ISSUES -->
 
-## Learnings
+## Issues
 
 Report any [issues](https://github.com/liuba-larousse/react-hotelsearch-demo-json/issues) with the project.
 
@@ -166,4 +172,5 @@ Contributions are what make the open source community such an amazing place to b
 ## Acknowledgements
 
 - Project build based on tutorials with [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQt)
-- [React Date Rang](https://github.com/hypeserver/react-date-range#readme)
+- [React Date Range ](https://github.com/hypeserver/react-date-range#readme)
+- [Elecron Markdownify](https://github.com/amitmerchant1990/electron-markdownify#readme)

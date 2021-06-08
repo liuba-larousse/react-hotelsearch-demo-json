@@ -1,19 +1,16 @@
-import React, {
-  useContext,
-  useEffect,
-  useState
-} from "react";
+import React, { useContext, useEffect, useState } from "react";
 
-const DataContext =
-  React.createContext("");
+const DataContext = React.createContext("");
 
 function useData() {
+  if (context === undefined) {
+    throw new Error("useData must be used within a DataProvider");
+  }
   return useContext(DataContext);
 }
 
 function DataProvider({ children }) {
-  const [loading, setLoading] =
-    useState(true);
+  const [loading, setLoading] = useState(true);
 
   const [data, setData] = useState({
     hotels: []
@@ -21,19 +18,14 @@ function DataProvider({ children }) {
 
   const getData = async () => {
     try {
-      const response = await fetch(
-        "/hotelsdata.json",
-        {
-          headers: {
-            "Content-Type":
-              "application/json",
-            Accept: "application/json"
-          }
+      const response = await fetch("/hotelsdata.json", {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
         }
-      );
+      });
       console.log(response);
-      const myJson =
-        await response.json();
+      const myJson = await response.json();
       setData(myJson);
     } catch (e) {
       console.log("error", e);
@@ -56,11 +48,7 @@ function DataProvider({ children }) {
     getData
   };
 
-  return (
-    <DataContext.Provider value={value}>
-      {children}
-    </DataContext.Provider>
-  );
+  return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }
 
 export { useData, DataProvider };
