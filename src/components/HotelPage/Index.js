@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import s from "./index.module.scss";
-import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
 import DateRangeIcon from "@material-ui/icons/DateRange";
@@ -279,43 +278,3 @@ export default function HotelPage() {
     </>
   );
 }
-
-// const options = {
-//   method: "GET",
-//   url: `https://hotels-com-free.p.rapidapi.com/pde/property-details/v1/hotels.com/${id}`,
-//   params: {
-//     rooms: "1",
-//     checkIn: "2021-01-27",
-//     checkOut: "2021-01-28",
-//     locale: "en_US",
-//     currency: "USD",
-//     include: "neighborhood"
-//   },
-//   headers: {
-//     "x-rapidapi-key":
-//       "ecdac6c3b4msh04deba4e203ad98p1f2249jsnf68d6a89b2d0",
-//     "x-rapidapi-host":
-//       "hotels-com-free.p.rapidapi.com"
-//   }
-// };
-
-// useEffect(() => {
-//   async function fetchData() {
-//     const result = await axios
-//       .request(options)
-//       .then(function (response) {
-//         console.log(
-//           "response.data:",
-//           response.data
-//         );
-//         setData(
-//           response.data.data.body
-//         );
-//       })
-//       .catch(function (error) {
-//         console.error(error);
-//       });
-//     return result;
-//   }
-//   fetchData();
-// }, [id]);

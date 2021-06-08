@@ -1,11 +1,3 @@
-Material UI
-React Hooks
-React Router
-Flexbox
-Responisive
-Date picker
-Grow/shrink animation
-
 Rapid API use // Life database
 https://rapidapi.com/apidojo/api/hotels4
 
@@ -16,7 +8,7 @@ https://www.robinwieruch.de/react-hooks-fetch-data
 
 https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
 
-##Switch Router
+## Switch Router
 
 https://dev.to/dsckiitdev/dynamic-pages-using-react-router-2pm
 
