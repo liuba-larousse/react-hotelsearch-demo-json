@@ -3,9 +3,6 @@ import React, { useContext, useEffect, useState } from "react";
 const DataContext = React.createContext("");
 
 function useData() {
-  if (context === undefined) {
-    throw new Error("useData must be used within a DataProvider");
-  }
   return useContext(DataContext);
 }
 
