@@ -1,0 +1,239 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+// Image Container
+
+.imageContainer {
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left right";
+  gap: 0px 5px;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.mainImg {
+  grid-area: left;
+  overflow: hidden;
+  img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.imageGrid {
+  grid-area: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 5px;
+  grid-template-areas:
+    "one two"
+    "three four";
+
+  img {
+    min-width: 400px;
+    max-height: 250px;
+    object-fit: cover;
+    filter: saturate(131%) contrast(120%);
+  }
+}
+
+.one {
+  grid-area: one;
+  overflow: hidden;
+}
+.two {
+  grid-area: two;
+  overflow: hidden;
+}
+.three {
+  grid-area: three;
+  overflow: hidden;
+}
+.four {
+  grid-area: four;
+  overflow: hidden;
+}
+
+//Bottom container
+
+.bottomContainer {
+  display: flex;
+}
+
+.bottomLeft {
+  flex: 6;
+  padding: 20px;
+  margin-right: 60px;
+}
+
+.bottomRight {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hostContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid lightgrey 0.5px;
+  padding-bottom: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid lightgrey 0.5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.description {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+//Price container
+
+.priceContainer {
+  height: auto;
+  width: 300px;
+  border: solid lightgrey 0.5px;
+  border-radius: 15px;
+  box-shadow: 6px 5px 25px -6px rgba(0, 0, 0, 0.57);
+  padding: 50px;
+}
+
+//Price container
+
+.checkInAndOut {
+  display: flex;
+}
+
+.checkIn,
+.checkOut {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.checkIn {
+  border-left: solid lightgrey 0.5px;
+  border-top: solid lightgrey 0.5px;
+  border-right: solid lightgrey 0.5px;
+}
+
+.checkOut {
+  border-top: solid lightgrey 0.5px;
+  border-right: solid lightgrey 0.5px;
+}
+
+.guestsAmount {
+  padding: 10px;
+  border: solid lightgrey 0.5px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+.priceLine,
+.totalLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalLine {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: solid lightgrey 0.5px;
+}
+
+.priceLineTop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.priceReviews {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .imageContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(250, fit-content) 1fr;
+    grid-template-areas:
+      "left"
+      "right";
+    gap: 0px 5px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .mainImg {
+    grid-area: left;
+    overflow: hidden;
+    img {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  //bottom container
+
+  .bottomContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottomLeft {
+    flex: 1;
+    padding: 20px;
+    margin-right: 60px;
+  }
+
+  .bottomRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .priceContainer {
+    height: auto;
+    width: 300px;
+    border: solid lightgrey 0.5px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 25px -6px rgba(0, 0, 0, 0.57);
+    padding: 50px;
+  }
+}
+
+.link {
+  text-align: center;
+  margin: 20px;
+}

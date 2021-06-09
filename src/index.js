@@ -1,12 +1,12 @@
-import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import { DataProvider } from "./context/Context";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
+  <DataProvider>
     <App />
-  </StrictMode>,
+  </DataProvider>,
   rootElement
 );

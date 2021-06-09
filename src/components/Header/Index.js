@@ -1,10 +1,6 @@
 import React from "react";
 import s from "./index.module.scss";
-import {
-  IconButton,
-  InputBase,
-  Avatar
-} from "@material-ui/core";
+import { IconButton, InputBase, Avatar } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import LanguageIcon from "@material-ui/icons/Language";
@@ -26,22 +22,19 @@ export default function Header() {
           type="text"
           placeholder="Search "
           inputProps={{
-            "aria-label":
-              "search airbnb"
+            "aria-label": "search airbnb"
           }}
         />
-        <IconButton
-          type="submit"
-          aria-label="search"
-        >
+        <IconButton type="submit" aria-label="search">
           <SearchIcon />
         </IconButton>
       </form>
 
       <div className={s.right}>
         <p>Log In</p>
-        <ExpandMoreIcon />
+        <ExpandMoreIcon aria-label="expand" />
         <LanguageIcon />
+
         <Avatar />
       </div>
     </div>

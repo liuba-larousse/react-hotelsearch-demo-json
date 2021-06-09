@@ -11,8 +11,7 @@ export default function Footer() {
         component="p"
         align="center"
       >
-        @2021 AirBnb Clone · Privacy ·
-        Terms · Sitemap{" "}
+        @2021 Hotel Search Demo · Privacy · Terms · Sitemap{" "}
       </Typography>
     </div>
   );

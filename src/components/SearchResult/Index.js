@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     minWidth: 650,
     width: "100%",
     maxWidth: 1020,
-    height: 200,
+    height: 250,
     marginTop: 50
   },
   actionArea: {
@@ -22,14 +22,16 @@ const useStyles = makeStyles({
     justifyContent: "flex-start"
   },
   media: {
-    width: 250
+    width: "50%",
+    maxWidth: 300,
+    minHeight: 250
   },
   top: {
     display: "flex",
     flexDirection: "column",
     marginBottom: "30px"
   },
-  buttom: {
+  bottom: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -42,16 +44,14 @@ const useStyles = makeStyles({
   content: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    width: 500
   }
 });
 
 export default function SearchResult({
   src,
-  landmarkDistanceOne,
-  landmarkDistanceTwo,
-  landmarkLabelOne,
-  landmarkLabelTwo,
+  details,
   title,
   rating,
   reviews,
@@ -61,26 +61,17 @@ export default function SearchResult({
 
   return (
     <Card className={classes.root}>
-      <CardActionArea
-        className={classes.actionArea}
-      >
+      <CardActionArea className={classes.actionArea}>
         <CardMedia
           className={classes.media}
           component="img"
           alt="Contemplative Reptile"
-          height="200"
           image={src}
           title="Contemplative Reptile"
         />
-        <CardContent
-          className={classes.content}
-        >
+        <CardContent className={classes.content}>
           <div className={classes.top}>
-            <Typography
-              gutterBottom
-              variant="h5"
-              component="h2"
-            >
+            <Typography gutterBottom variant="h5" component="h2">
               {title}
             </Typography>
             <Typography
@@ -89,28 +80,15 @@ export default function SearchResult({
               color="textSecondary"
               component="p"
             >
-              details
+              {details}
             </Typography>
           </div>
-          <div
-            className={classes.buttom}
-          >
-            <Typography
-              variant="h6"
-              component="p"
-            >
-              <StarIcon
-                className={classes.icon}
-              />{" "}
-              {rating} ({reviews}{" "}
-              reviews)
+          <div className={classes.bottom}>
+            <Typography variant="h6" component="p">
+              <StarIcon className={classes.icon} /> {rating} ({reviews} reviews)
             </Typography>
-            <Typography
-              variant="h6"
-              component="p"
-            >
-              <strong> {price} </strong>{" "}
-              /night
+            <Typography variant="h6" component="p">
+              <strong> {price} </strong> /night
             </Typography>
           </div>
         </CardContent>

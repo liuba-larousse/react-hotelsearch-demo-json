@@ -1,44 +1,34 @@
-import React, {
-  useContext,
-  useEffect,
-  useState
-} from "react";
+import React, { useContext, useEffect, useState } from "react";
 
-const DataContext = React.createContext(
-  ""
-);
+const DataContext = React.createContext("");
 
 function useData() {
   return useContext(DataContext);
 }
 
 function DataProvider({ children }) {
-  const [
-    loading,
-    setLoading
-  ] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   const [data, setData] = useState({
     hotels: []
   });
 
-  const getData = () => {
-    fetch("hotelsdata.json", {
-      headers: {
-        "Content-Type":
-          "application/json",
-        Accept: "application/json"
-      }
-    })
-      .then(function (response) {
-        console.log(response);
-        return response.json();
-      })
-      .then(function (myJson) {
-        console.log(myJson);
-        setData(myJson);
-        setLoading(false);
+  const getData = async () => {
+    try {
+      const response = await fetch("/hotelsdata.json", {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        }
       });
+      console.log(response);
+      const myJson = await response.json();
+      setData(myJson);
+    } catch (e) {
+      console.log("error", e);
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -55,11 +45,7 @@ function DataProvider({ children }) {
     getData
   };
 
-  return (
-    <DataContext.Provider value={value}>
-      {children}
-    </DataContext.Provider>
-  );
+  return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }
 
 export { useData, DataProvider };
