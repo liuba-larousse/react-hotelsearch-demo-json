@@ -33,11 +33,10 @@ I am Liuba, a Front-End Developer working with React. I love to create awesome s
 <img src="https://res.cloudinary.com/liubalarousse/image/upload/v1623167167/for%20portfolio/hotelsearch-react-demo_nuoyne.png" width="75%" alt="landing page">
 </div> -->
 
-This project was build with intention of practicing and learning basic React skills. I used Material UI for styling of repeating elements like typography fonts, cards, buttons. I used SCSS for layout and customized style of unique elements.
-
-Project is inspired by my love for traveling and AirBnb landing page design. Project consists of a hotel search landing page, which takes a list of hotels from API (or in this case JSON that I have created specifically for this project with structure based on real API JSON structure) and displays the infomation about each hotel on the landing page.
-
-Hotels can be sorted by fiew parameters like price, rating and reviews based on the data , that is stored in JSON object related to each hotel. Once particular hotel is clicked, the dynamic page is created for it with the display of more detailed information about the hotel.
+This project was built with intention of practicing and learning basic React skills. I used Material UI for the styling of repeating elements like typography fonts, cards, buttons. I used SCSS for layout and customized style of unique elements.
+The project is inspired by my love for traveling and AirB
+nb landing page design. The project consists of a hotel search landing page, which takes a list of hotels from API (or in this case JSON that I have created specifically for this project with a structure based on real API JSON structure) and displays the information about each hotel on the landing page.
+Hotels can be sorted by few parameters like price, rating, and reviews based on the data, that is stored in JSON objects related to each hotel. When a particular hotel is clicked, a dynamic page is created for it with the display of more detailed information about the hotel.
 
 ## Stack
 
@@ -81,25 +80,28 @@ npm start
 ## Features
 
 - ✅ React Context
-- ✅ React Hookes
+- ✅ React Hooks
+
   - ⭐ useState
   - ⭐ useEffect
   - ⭐ Custom GetData Hook
+
 - ✅ React Router
 
   - ⭐ useParams
   - ⭐ useHistory
   - ⭐ Dynamic Routes
 
-- ✅ Responisive
+- ✅ Responsive
+
   - ⭐ @media query
+
 - ✅ Date picker
 
 - ✅ Material UI
-  - ⭐ ThemeProvider and theme customization
-  - ⭐ typography
-  - ⭐ cards, buttons links
-  - ⭐ icons
+  - ⭐ ThemeProvider and Theme customization
+  - ⭐ Typography, Cards, Buttons, Links
+  - ⭐ Icons
 
 <!-- LEARNINGS -->
 
@@ -331,8 +333,8 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+## Acknowledgments
 
 - Project build based on tutorials with [Clever Programmer](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQt)
 - [React Date Range ](https://github.com/hypeserver/react-date-range#readme)
-- [Elecron Markdownify](https://github.com/amitmerchant1990/electron-markdownify#readme)
+- [Electron Markdownify](https://github.com/amitmerchant1990/electron-markdownify#readme)

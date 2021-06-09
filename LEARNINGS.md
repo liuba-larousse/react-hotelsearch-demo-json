@@ -8,14 +8,14 @@ Here are some things I learned while building this website:
 
 🌿 Better code practice
 
-📖 Reading resourses
+📖 Reading resources
 
 <br>
 
 ## React
 
 - 🌴 REACT ROUTER
-  - 🥥 `history.push("./yourpage")` used inside of button as link to another page
+  - 🥥 `history.push("./yourpage")` used inside of button as a link to another page
   - 🥥 Place dynamic route before other routes. If placed under other routes dynamic route does not work.
 
 ```
@@ -27,13 +27,13 @@ Here are some things I learned while building this website:
            </Route>
 ```
 
-- 🥥 To create a dynamic route for each page use following steps
+- 🥥 Create a dynamic route for each page using the following steps
 
   - Pass unique value inside the Link to dynamic page
     ` <Link to={ "page/" + page.id }`
   - Wrap `<Page/>` component in the `<Route path="/page/:pageId">`
   - Use `useParams()` to get params `const params = useParams()`
-  - Map thhrough the array of objects and find object that matched with pageId passed value in route params
+  - Map through the array of objects and find an object that matched with pageId passed value in route params
   - Dont forget ❗ to `parseInt(params.pageId)` as params.pageId will be returned as a string
 
     ```
@@ -112,7 +112,7 @@ Here are some things I learned while building this website:
 - 🥥🌿 In `<Typography/>` element always specify
 
   - Variant applies the theme typography styles
-  - Component used for the root node
+  - A Component used for the root node
 
 - 🥥🌿 In `<InputBase/>` element arial-label can be specified as input pros `inputProps={{ "aria-label": "search airbnb" }}`
 
@@ -142,7 +142,7 @@ Here are some things I learned while building this website:
 
 ## CSS
 
-- 🥥 Center backround image with css:
+- 🥥 Center background image with CSS:
 
   ```
   background: url("https://images.photo.jpg") center center;
@@ -150,9 +150,9 @@ Here are some things I learned while building this website:
   background-repeat: no-repeat;
   ```
 
-- 🥥 Use `object-fit: contain` for image to maintain its aspect ratio while fitting within the element’s content box
+- 🥥 Use `object-fit: contain` for the image to maintain its aspect ratio while fitting within the element’s content-box
 
-- 🥥 Grow/Shrink animation on hover with scss:
+- 🥥 Grow/Shrink animation on hover with SCSS:
 
   ```
       element: {
@@ -180,14 +180,14 @@ Here are some things I learned while building this website:
 
 - 🌴 README
 
-  - 🥥 It was my first time trying to write proper clean nice `README.md`. I found it helpful to use some [templates](https://awesomeopensource.com/projects/readme)
-  - 🥥 I used 🔗[markdown guide](https://www.markdownguide.org/basic-syntax/) source to learn more about basic Markdown synax.
-  - 🥥 [Markdownify](https://markdownify.js.org/) is a Markdowneditor for desktop. It was of a huge help for writing syntax and preview it on desktop before pushing the code.
+  - 🥥 It was my first time trying to write properly `README.md` which would be cclean and nice. I found it helpful to use some [templates](https://awesomeopensource.com/projects/readme)
+  - 🥥 I used 🔗[markdown guide](https://www.markdownguide.org/basic-syntax/) source to learn more about basic Markdown syntax.
+  - 🥥 [Markdownify](https://markdownify.js.org/) is a Markdown editor for desktop. It was helpful for writing syntax and preview it on the desktop before pushing the code.
   - My `Readme.md` was created based on 🔗[this template](https://github.com/othneildrew/Best-README-Template).
     Thank you @othneildrew for sharing a template.
-  - And here is a huge 🔗[List](https://github.com/matiassingers/awesome-readme) of many open sourse README templates can be used to help create your own awesome readme
+  - And here is a huge 🔗[List](https://github.com/matiassingers/awesome-readme) of many open source README templates can be used to help create your own awesome readme
 
    <br>
 
 - 🌴 STORAGE
-- 🥥 I use 🔗[Cloudinary](https://cloudinary.com/) for an easy storage of media files online.
+- 🥥 I use 🔗[Cloudinary](https://cloudinary.com/) for the easy storage of media files online.
