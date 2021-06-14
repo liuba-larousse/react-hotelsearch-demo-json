@@ -34,8 +34,7 @@ I am Liuba, a Front-End Developer working with React. I love to create awesome s
 </div> -->
 
 This project was built with intention of practicing and learning basic React skills. I used Material UI for the styling of repeating elements like typography fonts, cards, buttons. I used SCSS for layout and customized style of unique elements.
-The project is inspired by my love for traveling and AirB
-nb landing page design. The project consists of a hotel search landing page, which takes a list of hotels from API (or in this case JSON that I have created specifically for this project with a structure based on real API JSON structure) and displays the information about each hotel on the landing page.
+The project is inspired by my love for traveling and AirBnb landing page design. The project consists of a hotel search landing page, which takes a list of hotels from API (or in this case JSON that I have created specifically for this project with a structure based on real API JSON structure) and displays the information about each hotel on the landing page.
 Hotels can be sorted by few parameters like price, rating, and reviews based on the data, that is stored in JSON objects related to each hotel. When a particular hotel is clicked, a dynamic page is created for it with the display of more detailed information about the hotel.
 
 ## Stack
